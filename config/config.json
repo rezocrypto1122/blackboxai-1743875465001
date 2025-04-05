@@ -1,0 +1,31 @@
+{
+  "bankAPIs": {
+    "BCA": {
+      "apiKey": "bca_test_key_123",
+      "endpoint": "https://api.sandbox.bca.co.id/v2/transaction",
+      "clientId": "BCA-CLIENT-001",
+      "clientSecret": "bca_secret_key_456",
+      "successRate": 0.9
+    },
+    "BRI": {
+      "apiKey": "bri_test_key_789",
+      "endpoint": "https://api.sandbox.bri.co.id/v2/transaction",
+      "clientId": "BRI-CLIENT-001",
+      "clientSecret": "bri_secret_key_012",
+      "successRate": 0.9
+    },
+    "DANA": {
+      "apiKey": "dana_test_key_345",
+      "endpoint": "https://api.sandbox.dana.id/v2/transaction",
+      "clientId": "DANA-CLIENT-001",
+      "clientSecret": "dana_secret_key_678",
+      "successRate": 0.95
+    }
+  },
+  "currency": "IDR",
+  "minimumAmount": 10000,
+  "maximumAmount": 100000000,
+  "paymentTimeoutMinutes": 60,
+  "retryAttempts": 3,
+  "retryDelaySeconds": 5
+}
